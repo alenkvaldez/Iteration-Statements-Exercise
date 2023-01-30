@@ -81,9 +81,15 @@ namespace IterationStatements
 
         //Heatin Up Section:
         //Write a method to check if an integer(from the user) is in the range -10 to 10
-        public static void checkInt() 
+        public static bool checkInt(int num) 
             {
-                if (i > -10 && i < 10)    
+                if (num >= -10 && num <= 10)    
+                {
+                    return true;
+                } 
+                {
+                return false;
+                }
             }
         
         //Write a method to display the multiplication table(from 1 to 12) of a given integer
