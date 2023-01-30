@@ -109,11 +109,11 @@ namespace IterationStatements
                 printThousand();
                 almostThousand();
                 twoInt(int a, int b);
-                checkInt(int n)
-                checkPosNeg(num)
-                checkVote(age)
-                checkInt()
-                quickMaths()
+                checkInt(int n);
+                checkPosNeg(num);
+                checkVote(age);
+                checkInt(int num);
+                quickMaths();
 
         }
     }
