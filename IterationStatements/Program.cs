@@ -102,16 +102,18 @@ namespace IterationStatements
         {
                 printThousand();
                 almostThousand();
-                twoInt(int a, int b);
-                checkInt(int n)
-                checkPosNeg(num)
-                checkVote(age)
+                twoInt();
+                checkInt()
+                checkPosNeg()
+                checkVote()
                 checkInt()
                 quickMaths()
+
+                Console.WriteLine("hello");
 
         }
     }
 }
 
 
-    if 
+ 
