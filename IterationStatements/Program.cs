@@ -69,7 +69,7 @@ namespace IterationStatements
         //TryParse()
         public static void checkVote(age)
             {
-                if (age < 18)
+                if (age >= 18)
                 {
                     Console.WriteLine("eligible");
                 }
